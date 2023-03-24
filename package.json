@@ -1,0 +1,48 @@
+{
+  "name": "vue-directives",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "a vue directives package",
+  "main": "index.js",
+  "bin": {
+    "create-vue-directives": "index.js"
+  },
+  "scripts": {
+    "b": "unbuild",
+    "t": "test",
+    "pr": "npm run b && node index.js",
+    "nl": "npm run b && npm link",
+    "rl": "bumpp",
+    "cl": "changelogen --output CHANGELOG.md"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wmq-top/vue-directives.git"
+  },
+  "keywords": [
+    "vite",
+    "vscode",
+    "npm",
+    "plugin"
+  ],
+  "author": "geeker_q",
+  "license": "MIT",
+  "bugs": {
+    "url": ""
+  },
+  "devDependencies": {
+    "bumpp": "^8.2.1",
+    "changelogen": "^0.4.1",
+    "cross-spawn": "^6.0.2",
+    "kolorist": "^1.6.0",
+    "minimist": "^1.2.6",
+    "prompts": "^2.4.2",
+    "typescript": "^5.0.0-dev.20230118"
+  },
+  "dependencies": {
+    "@types/node": "^18.11.18",
+    "@types/prompts": "^2.4.2",
+    "node": "^18.13.0",
+    "unbuild": "^1.1.1"
+  }
+}
