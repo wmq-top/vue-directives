@@ -1,6 +1,6 @@
 {
   "name": "vue-directives",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "type": "module",
   "description": "a vue directives package",
   "main": "index.js",
