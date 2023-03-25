@@ -12,6 +12,7 @@ export default defineBuildConfig({
   alias: {
     prompt: 'prompts/lib/index/js'
   },
+  declaration: true,
   hooks: {
     'rollup:options'(ctx, options) {
       if(!options.plugins) {

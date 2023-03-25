@@ -1,5 +1,5 @@
 {
-  "name": "vue-directives",
+  "name": "@murry_qx/vue-directives",
   "version": "1.0.1",
   "type": "module",
   "description": "a vue directives package",
@@ -43,6 +43,7 @@
     "@types/node": "^18.11.18",
     "@types/prompts": "^2.4.2",
     "node": "^18.13.0",
-    "unbuild": "^1.1.1"
+    "unbuild": "^1.1.1",
+    "vue": "^3.2.47"
   }
 }
