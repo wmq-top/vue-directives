@@ -4,6 +4,7 @@
   "type": "module",
   "description": "a vue directives package",
   "main": "index.js",
+  "types": "./dist/index.d.ts",
   "bin": {
     "create-vue-directives": "index.js"
   },
