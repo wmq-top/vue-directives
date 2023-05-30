@@ -24,6 +24,7 @@ const createRightRod = (): HTMLDivElement => {
   rightRod.style.cursor = 'e-resize'
   rightRod.style.zIndex = '999'
   rightRod.style.right = '0px'
+  rightRod.style.top = '0px'
   rightRod.className = 'hover-active'
 
   return rightRod
@@ -37,6 +38,7 @@ const createBottomRod = (): HTMLDivElement => {
   bottomRod.style.cursor = 'n-resize'
   bottomRod.style.zIndex = '999'
   bottomRod.style.bottom = '0px'
+  bottomRod.style.left = '0px'
   bottomRod.className = 'hover-active'
 
   return bottomRod
